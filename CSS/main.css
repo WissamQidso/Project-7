@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'maiandra';
+    src: url('../fonts-package/maiandra.woff2') format('woff2'),
+         url('../fonts-package/maiandra.woff') format('woff'),
+         url('../fonts-package/maiandra.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'forte';
+    src: url('../fonts-package/forte.woff2') format('woff2'),
+         url('../fonts-package/forte.woff') format('woff'),
+         url('../fonts-package/forte.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'corinthia';
+    src: url('../fonts-package/corinthia.woff2') format('woff2'),
+         url('../fonts-package/corinthia.woff') format('woff'),
+         url('../fonts-package/corinthia.ttf') format('truetype'); 
+}
+
+.navbar-brand {
+    font-family: 'forte';
+    font-size: 33px;
+}
+
+.navbar-brand:hover {
+    transition: all .2s linear;
+}
+
+.navbar-right {
+    margin-right: 20px;
+}
+
+#mymenu li a {
+    text-transform: uppercase;
+    
+}
+
+#mymenu .btn-primary {
+    margin-left: 10px;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel-inner {
+    border-bottom: 3px solid #222;
+}
+
+.carousel-caption h1 {
+    font-family: 'corinthia';
+    font-size: 48px;
+}
+
+#panels {
+    margin-top: 30px;
+    margin-bottom: 10px;
+} 
+
+#panels .panel-heading{
+    font-family: 'maiandra';
+    text-transform: uppercase;
+}
+
+#panels .panel-body p{
+    font-family: 'maiandra';
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+#panels .panel-footer a:hover {
+    text-decoration: none;
+}
+
+#pop {
+    font-family: 'maiandra';
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#pop:hover {
+    color: #b84442; 
+    transition: all .2s linear;
+}
+
+.modal-title {
+    text-transform: uppercase;
+    font-family: 'maiandra';  
+}
+
+.modal-title span {
+    color: rebeccapurple;  
+}
+
+#gallary-introduction {
+    font-family: 'maiandra';
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #222;
+    color: #9d9d9d;
+    padding-bottom: 6px;
+}
+
+#gallary-introduction:hover {
+    color: #fff;
+    transition: all .2s linear;
+}
+
+#gallary {
+    background-color: #ccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#gallary img {
+    width: 90%;
+    margin: 5%;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#gallary img:hover {
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    transition: all .3s linear;
+}
+
+.thumbnail:hover {
+    border-color: gray;
+}
+.price {
+    position: absolute;
+    top: 11%;
+    left: 11%;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'maiandra';
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price:hover {
+    color: #9f64f0;
+    transition: all .2s linear;
+}
+
+#personals {
+    font-family: 'maiandra';
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #222;
+    color: #9d9d9d;
+    padding-bottom: 6px;
+    margin-bottom: 40px;
+}
+
+#personals:hover {
+    color: #fff;
+    transition: all .2s linear;
+}
+
+.face {
+    width: 75%;
+    border: 2px solid pink;
+}
+
+.face:hover {
+    border: 2px solid #cc8c97;
+    transition: all .3s linear;
+}
+
+#hidden-figures {
+    padding-bottom: 40px;
+    border-bottom: 2px solid #222;
+}
+
+#foot {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #222;
+}
+
+.list {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'maiandra';
+    background-color: #222;
+    border-right: 2px solid #337ab7;
+    border-left: 2px solid #337ab7;
+}
+
+.nav>li>a:hover {
+    transition: all .4s linear;
+}
+
+#copy-right {
+    color: #fff;
+    background: #111;
+    font-size: 14px;
+    font-family: 'maiandra';
+    padding: 25px 0 22px;
+    text-align: center;
+}
+
+#copy-right a {
+    font-family: 'forte';
+    color: white;
+    padding-left: 0.2vw;
+    text-decoration: none; 
+}
+
+#copy-right a:hover {
+    color: #d8d8d8;
+    transition: all .2s linear;
+}
+
+/* MEDIA QUERY SECTION */
+
+@media screen and (max-width: 991px) {
+    .foto:nth-child(5) {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pic:nth-child(2) {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .carousel-caption h1 {
+        font-size: 10vw;
+    }
+    
+    .price {
+        top: 12%;
+        left: 12%;
+    }
+    
+    .sector {
+        float: none;
+        margin: 0 auto 20px;
+        width: 90%;
+        font-size: 18px;
+    }
+    
+    .list {
+        border: 2px solid #337ab7;
+        border-radius: 15px;
+    }
+    
+    .list .up-curve:hover {
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+        transition: all .2s linear;
+    }    
+    
+    .list .down-curve:hover {
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px;
+        transition: all .2s linear;
+    }
+}
+
+
+
