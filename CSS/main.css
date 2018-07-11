@@ -226,6 +226,11 @@
 }
 
 @media screen and (max-width: 767px) {
+    #mymenu .btn-primary {
+        margin-left: 0;
+        margin-right: 3px;
+    }
+    
     .pic:nth-child(2) {
         margin-top: 40px;
         margin-bottom: 40px;
